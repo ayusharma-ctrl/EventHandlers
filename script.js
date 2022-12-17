@@ -4,6 +4,7 @@ var p1 = document.getElementsByTagName("p1")[0]
 var p2 = document.getElementsByTagName("p2")[0]
 var p3 = document.getElementsByTagName("p3")[0]
 var submitBtn = document.getElementsByTagName("button")[0]
+var form = document.getElementById("form")
 
 var checkGood2go1 = "false"
 var checkGood2go2 = "false"
@@ -68,7 +69,6 @@ function submitButton() {
         if (confirm(text) == true) {
             alert("Successful SignUp!")
             // reloading the page after successfully submitting the values and final confirmaton alert
-            window.location.reload();
         }
         else {
             window.location.reload();
