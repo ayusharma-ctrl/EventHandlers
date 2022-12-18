@@ -36,6 +36,7 @@ function changeEmail() {
         checkGood2go1 = "true"
         if (checkGood2go2 == "true") {
             p3.style.display = 'block'
+            submitBtn.removeAttribute("disabled")
         }
     }
 }
@@ -55,6 +56,7 @@ function changePassword() {
         checkGood2go2 = "true"
         if (checkGood2go1 == "true") {
             p3.style.display = 'block'
+            submitBtn.removeAttribute("disabled")
         }
     }
 }
